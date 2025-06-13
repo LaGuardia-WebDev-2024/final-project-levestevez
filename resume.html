@@ -6,6 +6,37 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
+      .parent-flex {
+        display: flex;
+        background-color: purple;
+        justify-content: space-around;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      .parent-flex img {
+        max-width: 30%;
+        border-radius: 10px;
+      }
+      .textblock {
+        min-height: 300px;
+        background-color: #0A1128;
+        color: #FEFCFB;
+      }
+      .parent-flex {
+        display: flex;
+      }
+      .child-flex {
+        background-color: #034078;
+        margin: 30px;
+        padding: 10px;
+        text-align: justify;
+        width: 40%;
+      }
+      .para-1{
+        display: flex;
+        
+      }
     </style>
   </head>
   <body>
@@ -13,8 +44,8 @@
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
       <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
       <li><a class="active" href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
       <li style="float: right">
         <a target="_blank" href=""
           ><img
@@ -33,5 +64,31 @@
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
     <h1>Resume</h1>
 
+    <div class="textblock parent-flex">
+      <div class="child-flex para-1">
+        <h2>
+          Education
+        </h2>
+    
+        <ul>
+        <li>Fiorello H. LaGuardia High School of Music & Art and Performing Arts ‎ ‎ ‎ ‎ ‎ ‎ㅤ ‎ ‎ ‎ ‎ ‎ 2021 - 2025</li>
+          <li>The Juilliard School, MAP Division‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ 2022 - 2024</li>
+       <li>The Juilliard School, Pre-College Division‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎  ‎ ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ 2024 - 2025</li>
+        <li>Bard College Conservatory ㅤ ㅤㅤㅤㅤㅤㅤㅤㅤㅤ ‎  ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ2025 - 2030</li>
+        
+        </ul>
+      </div>
+      <div class="child-flex">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
+          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
+          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
+          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
+          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
+          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
+          per conubia nostra inceptos himenaeos.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
